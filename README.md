@@ -79,11 +79,13 @@ yarn dlx @yarnpkg/sdks vscode
 3. 选择 **"Use Workspace Version"**。这将启用 Yarn PnP 模式下的类型识别。
 
 # 配置环境变量
-# 创建 .env.local 并填入以下内容：
-# NEXT_PUBLIC_STAKING_CONTRACT_ADDRESS=你的合约地址
-# NEXT_PUBLIC_WCM_PROJECT_ID=你的WalletConnect项目ID
+
+- 创建 .env.local 并填入以下内容：
+- NEXT_PUBLIC_STAKING_CONTRACT_ADDRESS=你的合约地址
+- NEXT_PUBLIC_WCM_PROJECT_ID=你的WalletConnect项目ID
 
 # 启动开发服务器
+```bash
 npm run dev
 ```
 打开 [http://localhost:3000/staking](http://localhost:3000/staking) 访问质押页面。
@@ -103,7 +105,7 @@ npm run dev
 
 > *预览图展示*
 
-![Dashboard Preview](https://via.placeholder.com/800x450.png?text=Web3+Staking+Dashboard+Preview)
+![Dashboard Preview](https://i.mji.rip/2026/04/29/a27dae67d18c75c4a867f62df92a60b3.png)
 
 ---
 
