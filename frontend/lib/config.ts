@@ -1,0 +1,4 @@
+export const CONFIG = {
+  STAKING_CONTRACT_ADDRESS: process.env.NEXT_PUBLIC_STAKING_CONTRACT_ADDRESS || '0x...',
+  WCM_PROJECT_ID: process.env.NEXT_PUBLIC_WCM_PROJECT_ID || '',
+};

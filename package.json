@@ -1,0 +1,8 @@
+{
+  "name": "web3-staking-dapp-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for Web3 Staking DApp",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
